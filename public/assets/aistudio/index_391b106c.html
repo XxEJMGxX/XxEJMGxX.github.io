@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elías Nieto | Portafolio DAW</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar" aria-label="Navegación principal">
+      <a href="#" class="brand">ELÍAS <span>NIETO</span></a>
+      <button
+        class="menu-toggle"
+        id="menuToggleBtn"
+        type="button"
+        aria-label="Alternar menú de navegación"
+        aria-expanded="false"
+        aria-controls="navLinks"
+      >
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li>
+          <a href="#sobre-mi" data-es="Sobre mí" data-en="About Me">Sobre mí</a>
+        </li>
+        <li>
+          <a href="#proyectos" data-es="Proyectos" data-en="Projects"
+            >Proyectos</a
+          >
+        </li>
+        <li>
+          <a href="#habilidades" data-es="Habilidades" data-en="Skills"
+            >Habilidades</a
+          >
+        </li>
+        <li>
+          <a href="#contacto" data-es="Contacto" data-en="Contact">Contacto</a>
+        </li>
+      </ul>
+      <button
+        class="lang-switch"
+        id="langBtn"
+        type="button"
+        aria-label="Cambiar idioma a inglés"
+      >
+        <span class="lang-active">ES</span> |
+        <span class="lang-inactive">EN</span>
+      </button>
+    </nav>
+
+    <main class="container">
+      <section class="hero" id="sobre-mi">
+        <div>
+          <span
+            class="role-badge"
+            data-es="Disponible para Prácticas Formativas • Madrid"
+            data-en="Available for IT Internship • Madrid"
+          >
+            Disponible para Prácticas Formativas • Madrid
+          </span>
+          <h1>Elías José Nieto Urieta</h1>
+          <p
+            class="hero-subtitle"
+            data-es="Estudiante del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web"
+            data-en="Student of the Higher Vocational Education and Training Programme in Web Application Development"
+          >
+            Estudiante del Ciclo Formativo de Grado Superior en Desarrollo de
+            Aplicaciones Web
+          </p>
+
+          <div class="profile-box">
+            <p
+              data-es="Desarrollador web en segundo año de formación, certificado en CS50’s Web Programming with Python and JavaScript (HarvardX). Cuento con sólida base en diseño de interfaces y frontend (HTML5, CSS3, JavaScript), backend (PHP, Java) y bases de datos (MySQL, MariaDB). Soy una persona responsable y empática con inglés C1, motivada por unirme en prácticas a un equipo tecnológico donde aportar soluciones eficientes y adquirir experiencia."
+              data-en="Second-year Web Application Development student certified in HarvardX CS50’s Web Programming with Python and JavaScript. Skilled in building responsive interfaces (HTML5, CSS3, JavaScript), back-end logic (PHP, Java), and relational databases (MySQL, MariaDB). An empathetic, responsible team player with C1 English, eager to join an IT company as a trainee developer to build scalable web solutions and gain experience."
+            >
+              Desarrollador web en segundo año de formación, certificado en
+              CS50’s Web Programming with Python and JavaScript (HarvardX).
+              Cuento con sólida base en diseño de interfaces y frontend (HTML5,
+              CSS3, JavaScript), backend (PHP, Java) y bases de datos (MySQL,
+              MariaDB). Soy una persona responsable y empática con inglés C1,
+              motivada por unirme en prácticas a un equipo tecnológico donde
+              aportar soluciones eficientes y adquirir experiencia.
+            </p>
+          </div>
+
+          <div class="cta-group">
+            <a
+              href="#proyectos"
+              class="btn btn-primary"
+              data-es="Ver Portafolio de Proyectos"
+              data-en="View Project Portfolio"
+              >Ver Portafolio de Proyectos</a
+            >
+            <a
+              href="#contacto"
+              class="btn btn-secondary"
+              data-es="Contactar"
+              data-en="Contact Me"
+              >Contactar</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-photo-card">
+          <div class="avatar-wrapper">
+            <img
+              src="assets/foto.jpg"
+              alt="Elías José Nieto Urieta"
+              width="260"
+              height="260"
+              loading="eager"
+            />
+          </div>
+          <p
+            class="photo-card-title"
+            data-es="Digitech FP • 2.º DAW"
+            data-en="Digitech FP • 2nd Year DAW"
+          >
+            Digitech FP • 2.º DAW
+          </p>
+          <p
+            class="photo-card-langs"
+            data-es="Inglés C1 • Alemán A1"
+            data-en="English C1 • German A1"
+          >
+            Inglés C1 • Alemán A1
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="proyectos">
+        <div class="section-header">
+          <h2 data-es="Proyectos Destacados" data-en="Featured Projects">
+            Proyectos Destacados
+          </h2>
+          <p
+            data-es="Acceso directo a las demos interactivas, vistas previas de interfaz y repositorios de código."
+            data-en="Direct access to live demos, UI previews, and source code repositories."
+          >
+            Acceso directo a las demos interactivas, vistas previas de interfaz
+            y repositorios de código.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="window-bar">
+              <span class="dot red"></span><span class="dot yellow"></span
+              ><span class="dot green"></span>
+              <span class="window-url">sabor-binacional.github.io</span>
+            </div>
+            <div class="project-preview">
+              <div class="preview-placeholder-icon">🫓🤝🥟</div>
+              <strong
+                data-es="Portal Cultural y Gastronómico"
+                data-en="Cultural &amp; Culinary Web Portal"
+                >Portal Cultural y Gastronómico</strong
+              >
+            </div>
+            <div class="project-body">
+              <h3>Sabor Binacional</h3>
+              <p
+                data-es="Sitio web divulgativo que une a Venezuela y Colombia como tierras hermanas, explicando las diferencias de nombres en productos cotidianos mediante un lenguaje neutro y accesible para eliminar fronteras."
+                data-en="Informative website uniting Venezuela and Colombia as sister lands, explaining vocabulary differences for everyday culinary products using neutral, accessible language across borders."
+              >
+                Sitio web divulgativo que une a Venezuela y Colombia como
+                tierras hermanas, explicando las diferencias de nombres en
+                productos cotidianos mediante un lenguaje neutro y accesible
+                para eliminar fronteras.
+              </p>
+              <div class="tech-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">Responsive UI</span>
+              </div>
+              <div class="project-actions">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary"
+                  data-es="🌐 Ver Web"
+                  data-en="🌐 Live Demo"
+                  >🌐 Ver Web</a
+                >
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-secondary"
+                  data-es="💻 Código"
+                  data-en="💻 Code"
+                  >💻 Código</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="window-bar">
+              <span class="dot red"></span><span class="dot yellow"></span
+              ><span class="dot green"></span>
+              <span class="window-url">san-isidro-madrid.github.io</span>
+            </div>
+            <div class="project-preview">
+              <div class="preview-placeholder-icon">🎡🌺🎶</div>
+              <strong
+                data-es="Landing Page Promocional"
+                data-en="Promotional Landing Page"
+                >Landing Page Promocional</strong
+              >
+            </div>
+            <div class="project-body">
+              <h3 data-es="Fiestas de San Isidro" data-en="San Isidro Festival">
+                Fiestas de San Isidro
+              </h3>
+              <p
+                data-es="Proyecto web diseñado para promocionar las fiestas de San Isidro en Madrid, estructurando actividades, tradición e información clave con una interfaz visual atractiva y adaptable."
+                data-en="Web project designed to promote Madrid's San Isidro festival, structuring events, cultural traditions, and visitor information within an engaging responsive interface."
+              >
+                Proyecto web diseñado para promocionar las fiestas de San Isidro
+                en Madrid, estructurando actividades, tradición e información
+                clave con una interfaz visual atractiva y adaptable.
+              </p>
+              <div class="tech-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-primary"
+                  data-es="🌐 Ver Web"
+                  data-en="🌐 Live Demo"
+                  >🌐 Ver Web</a
+                >
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-secondary"
+                  data-es="💻 Código"
+                  data-en="💻 Code"
+                  >💻 Código</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="window-bar">
+              <span class="dot red"></span><span class="dot yellow"></span
+              ><span class="dot green"></span>
+              <span class="window-url">JavaQuizApp.jar — JavaFX</span>
+            </div>
+            <div class="project-preview">
+              <div class="preview-placeholder-icon">⏱️☕🖥️</div>
+              <strong
+                data-es="Aplicación de Escritorio Interactiva"
+                data-en="Interactive Desktop Application"
+                >Aplicación de Escritorio Interactiva</strong
+              >
+            </div>
+            <div class="project-body">
+              <h3>Java Knowledge Quiz</h3>
+              <p
+                data-es="Aplicación interactiva de preguntas tipo test (A, B, C, D) con temporizador por pregunta para evaluar conocimientos de Java. Interfaz construida con JavaFX, Gluon Scene Builder y hojas de estilo CSS."
+                data-en="Interactive multiple-choice quiz app (A, B, C, D) with a countdown timer to test Java knowledge. Built using JavaFX, Gluon Scene Builder, and custom CSS styling."
+              >
+                Aplicación interactiva de preguntas tipo test (A, B, C, D) con
+                temporizador por pregunta para evaluar conocimientos de Java.
+                Interfaz construida con JavaFX, Gluon Scene Builder y hojas de
+                estilo CSS.
+              </p>
+              <div class="tech-tags">
+                <span class="tag">Java</span>
+                <span class="tag">JavaFX</span>
+                <span class="tag">Scene Builder</span>
+                <span class="tag">CSS</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  id="openModalBtn"
+                  class="btn btn-primary"
+                  data-es="🖼️ Ver Interfaz"
+                  data-en="🖼️ View UI"
+                >
+                  🖼️ Ver Interfaz
+                </button>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-secondary"
+                  data-es="💻 Código"
+                  data-en="💻 Code"
+                  >💻 Código</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="habilidades">
+        <div class="section-header">
+          <h2
+            data-es="Habilidades Técnicas y Formación"
+            data-en="Technical Skills &amp; Education"
+          >
+            Habilidades Técnicas y Formación
+          </h2>
+        </div>
+
+        <div class="bento-grid">
+          <div class="bento-box span-7">
+            <h3
+              data-es="Stack Tecnológico (2.º DAW)"
+              data-en="Tech Stack (2nd Year DAW)"
+            >
+              Stack Tecnológico (2.º DAW)
+            </h3>
+            <ul class="bento-list">
+              <li
+                data-es="<strong>Frontend y Diseño de Interfaces (UI/UX):</strong> HTML5, CSS3, JavaScript, maquetación responsive, Figma y Canva."
+                data-en="<strong>Frontend &amp; UI/UX Design:</strong> HTML5, CSS3, JavaScript, responsive layout, Figma, and Canva."
+              >
+                <strong>Frontend y Diseño de Interfaces (UI/UX):</strong> HTML5,
+                CSS3, JavaScript, maquetación responsive, Figma y Canva.
+              </li>
+              <li
+                data-es="<strong>Backend y Aplicaciones:</strong> PHP (Desarrollo en entorno servidor), Java, JavaFX, Scene Builder y Python."
+                data-en="<strong>Backend &amp; Applications:</strong> PHP (Server-side development), Java, JavaFX, Scene Builder, and Python."
+              >
+                <strong>Backend y Aplicaciones:</strong> PHP (Desarrollo en
+                entorno servidor), Java, JavaFX, Scene Builder y Python.
+              </li>
+              <li
+                data-es="<strong>Bases de Datos Relacionales:</strong> Diseño y consultas SQL en MySQL y MariaDB."
+                data-en="<strong>Relational Databases:</strong> SQL database design and querying with MySQL and MariaDB."
+              >
+                <strong>Bases de Datos Relacionales:</strong> Diseño y consultas
+                SQL en MySQL y MariaDB.
+              </li>
+              <li
+                data-es="<strong>Herramientas y Flujo de Trabajo:</strong> Git, GitHub, Google Workspace (Docs, Sheets), Microsoft Office y Clipchamp."
+                data-en="<strong>Tools &amp; Workflow:</strong> Git, GitHub, Google Workspace (Docs, Sheets), Microsoft Office, and Clipchamp."
+              >
+                <strong>Herramientas y Flujo de Trabajo:</strong> Git, GitHub,
+                Google Workspace (Docs, Sheets), Microsoft Office y Clipchamp.
+              </li>
+            </ul>
+          </div>
+
+          <div class="bento-box span-5">
+            <h3
+              data-es="Educación y Certificaciones"
+              data-en="Education &amp; Certifications"
+            >
+              Educación y Certificaciones
+            </h3>
+            <ul class="bento-list">
+              <li
+                data-es="<strong>CFGS en Desarrollo de Aplicaciones Web (DAW):</strong> Digitech FP (2025 – Actualidad)."
+                data-en="<strong>HVET in Web Application Development (DAW):</strong> Digitech FP (2025 – Present)."
+              >
+                <strong>CFGS en Desarrollo de Aplicaciones Web (DAW):</strong>
+                Digitech FP (2025 – Actualidad).
+              </li>
+              <li
+                data-es="<strong>HarvardX – CS50:</strong> CS50’s Web Programming with Python and JavaScript."
+                data-en="<strong>HarvardX – CS50:</strong> CS50’s Web Programming with Python and JavaScript."
+              >
+                <strong>HarvardX – CS50:</strong> CS50’s Web Programming with
+                Python and JavaScript.
+              </li>
+              <li
+                data-es="<strong>Platzi:</strong> Cursos de formación continua en desarrollo web y programación."
+                data-en="<strong>Platzi:</strong> Continuous learning courses in web development and programming."
+              >
+                <strong>Platzi:</strong> Cursos de formación continua en
+                desarrollo web y programación.
+              </li>
+              <li
+                data-es="<strong>Bachillerato de Ciencias y Tecnología:</strong> IES Alfredo Kraus (2023 – 2025)."
+                data-en="<strong>Science &amp; Technology High School Diploma:</strong> IES Alfredo Kraus (2023 – 2025)."
+              >
+                <strong>Bachillerato de Ciencias y Tecnología:</strong> IES
+                Alfredo Kraus (2023 – 2025).
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacto">
+      <div class="container contact-card">
+        <div>
+          <h2 class="footer-title" data-es="¿Hablamos?" data-en="Let's Talk!">
+            ¿Hablamos?
+          </h2>
+          <p
+            class="footer-subtitle"
+            data-es="📍 Madrid, 28037 • Disponibilidad para entrevistas y convenio de prácticas."
+            data-en="📍 Madrid, 28037 • Available for interviews and internship agreements."
+          >
+            📍 Madrid, 28037 • Disponibilidad para entrevistas y convenio de
+            prácticas.
+          </p>
+        </div>
+        <div class="contact-details">
+          <a href="mailto:eliasnietou@gmail.com" class="btn btn-primary"
+            >✉️ eliasnietou@gmail.com</a
+          >
+          <a href="tel:+34603819689" class="btn btn-secondary"
+            >📞 (+34) 603 819 689</a
+          >
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-secondary"
+            aria-label="Perfil de GitHub"
+            >GitHub</a
+          >
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-secondary"
+            aria-label="Perfil de LinkedIn"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <div
+      class="modal-overlay"
+      id="javaModal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-content" id="modalBox">
+        <h3 class="modal-title" id="modalTitle">
+          Java Knowledge Quiz — JavaFX &amp; CSS
+        </h3>
+        <p
+          class="modal-desc"
+          data-es="Vista previa de la interfaz gráfica diseñada con Gluon Scene Builder y estilizada con CSS (selección de respuestas A, B, C, D y control de tiempo)."
+          data-en="Preview of the graphical user interface designed with Gluon Scene Builder and styled with CSS (A, B, C, D options and countdown timer)."
+        >
+          Vista previa de la interfaz gráfica diseñada con Gluon Scene Builder y
+          estilizada con CSS (selección de respuestas A, B, C, D y control de
+          tiempo).
+        </p>
+        <div class="modal-placeholder">
+          <p
+            data-es="📸 Sustituye este bloque por tu captura de pantalla (assets/img/captura-java.png)"
+            data-en="📸 Replace this block with your screenshot (assets/img/captura-java.png)"
+          >
+            📸 Sustituye este bloque por tu captura de pantalla
+            (assets/img/captura-java.png)
+          </p>
+        </div>
+        <button
+          type="button"
+          class="btn btn-primary"
+          id="closeModalBtn"
+          data-es="Cerrar vista previa"
+          data-en="Close preview"
+        >
+          Cerrar vista previa
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
